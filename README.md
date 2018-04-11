@@ -17,7 +17,7 @@ I'm not trying to prove anything but I think it's key to know why we prefer cert
 
 Redis works on the concept of key-value pair. It provides the ability to store a  value inside a key. This data can be retrieved if you know the exact key used to store it. It follows the client-server architecture.
 
-**Some features that make Redis outstanding** 
+# Some features that make Redis outstanding
 
  **Speed** : It stores it's data in the primary memory(RAM). This makes it extremely fast. <br/>
 
@@ -32,9 +32,9 @@ Redis works on the concept of key-value pair. It provides the ability to store a
  **Sharding** : It is very easy to distribute the dataset across multiple Redis instances, like other key-value store.
 
 **Redis vs RDBMS** 
-| Redis | RDBMS |
 
-| -------- | ------------- | 
+| Redis | RDBMS |
+| -------- :| ------------- | 
 
 | Redis stores everything in primary memory. | RDBMS stores everything in secondary memory.  | 
 
@@ -50,5 +50,10 @@ Redis works on the concept of key-value pair. It provides the ability to store a
 * Redis is an in-memory but persistent on disk database, so it represents a different trade off where very high write and read speed is achieved with the limitation of data sets that can't be larger than memory.
 * Another advantage of in memory databases is that the memory representation of complex data structures is much simpler to manipulate compared to the same data structure on disk, so Redis can do a lot, with little internal complexity.
 * At the same time the two on-disk storage formats (RDB and AOF) don't need to be suitable for random access, so they are compact and always generated in an append-only fashion.
+
+**What are server send events?**
+A server-sent event is when a web page automatically gets updates from a server.
+
+
 
 
